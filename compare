@@ -1,0 +1,9 @@
+ID1=1 ;
+ID2=2 ;
+ID2='cat local"
+if [ "cat local" == $ID2 ] ; then
+echo "happiness noises" ;
+ID1=2;
+else
+echo "oof" ;
+fi
